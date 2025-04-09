@@ -28,7 +28,11 @@ connectDB()
 
 
 /*
-import express from "express"
+import express from "express";
+import { DB_NAME } from "./constants.js";
+import mongoose from "mongoose";
+
+
 const app = express()
 ( async () => {
     try {
